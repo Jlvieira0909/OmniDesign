@@ -1,0 +1,34 @@
+.ClientCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 64vw;
+  background: #22223c;
+  color: #ffffff;
+  height: auto; /* Garante que a proporção da imagem seja mantida */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.ClientCard:hover {
+  transform: scale(1.02); /* Amplia a imagem ao passar o mouse */
+  z-index: 1; /* Garante que a imagem fique sobre outros elementos */
+}
+
+.CardTextContainer {
+  background: #22223c;
+  padding: 64px 80px 20px 80px;
+}
+
+.CardText {
+  background: #22223c;
+}
+
+.CardName {
+  background: #22223c;
+}
+
+.ClientSignature {
+  background: #22223c;
+  width: 40vw;
+}

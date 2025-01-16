@@ -1,0 +1,54 @@
+.AboutUsContainer {
+  display: flex;
+  height: 100% !important;
+  background: #070712;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+.AboutUsTitle {
+  font-size: 4vw;
+  font-weight: 900;
+}
+
+.DetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 8vw;
+  align-items: center;
+}
+
+.DetailsTitle {
+  font-size: 4vw;
+  margin-top: 0px;
+  margin-bottom: 32px;
+  font-style: italic;
+}
+
+.DetailsText {
+  font-size: 1.5vw;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
+
+.DetailsFlavorText {
+  margin-top: -0.8vw;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.swiper {
+  display: flex;
+  width: 80vw;
+  height: 45vw;
+  border: solid 4px #0044ff;
+}
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,32 @@
+.NavBarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #22223c;
+  width: 100%;
+}
+
+.Signature {
+  width: 24vw;
+  height: 2vw;
+  margin-left: 1vw;
+}
+
+.NavigationButtons {
+  margin-right: 1vw;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5vw;
+}
+
+.LinkToPage {
+}
+
+.LinkLabel {
+  color: #ffffff;
+}
+
+.LinkLabel:hover {
+  color: #0044ff;
+}

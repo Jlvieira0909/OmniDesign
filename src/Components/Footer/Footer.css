@@ -1,0 +1,30 @@
+.HomeFooter {
+  background: #070712;
+  height: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.FooterLogo {
+}
+
+.FooterSign {
+}
+
+.FooterSocials {
+}
+
+.FooterContactImg {
+  height: 40px;
+  width: 40px;
+  margin-right: 8px;
+  height: auto; /* Garante que a proporção da imagem seja mantida */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.FooterContactImg:hover {
+  transform: scale(1.1); /* Amplia a imagem ao passar o mouse */
+  z-index: 1; /* Garante que a imagem fique sobre outros elementos */
+}

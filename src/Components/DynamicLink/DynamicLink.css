@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.DynamicWrapper {
+  display: flex;
+  width: 64vw;
+  align-items: center;
+  margin-bottom: 4vw;
+  justify-content: space-around;
+}
+
+.DynamicTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.DynamicTitle {
+  display: flex;
+  color: #ffffff;
+  font-size: 64px;
+  width: 30vw;
+  line-height: 72px;
+}
+
+.DynamicText {
+  display: flex;
+  color: #b7b7b7;
+  font-size: 32px;
+  width: 30vw;
+  margin-top: -24px;
+  font-weight: 400;
+}
+
+.DynamicImg {
+  display: flex;
+  width: 40%;
+  height: auto; /* Garante que a proporção da imagem seja mantida */
+  border: solid 2px #0044ff;
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.DynamicImg:hover {
+  transform: scale(1.1); /* Amplia a imagem ao passar o mouse */
+  z-index: 1; /* Garante que a imagem fique sobre outros elementos */
+}
