@@ -62,9 +62,6 @@ div.swiper-button-next {
   align-items: center !important;
 }
 
-.HomeTitle {
-}
-
 .MagicPhoto {
 }
 
@@ -112,4 +109,60 @@ div.swiper-button-next {
 .FooterContactImg:hover {
   transform: scale(1.1); /* Amplia a imagem ao passar o mouse */
   z-index: 1; /* Garante que a imagem fique sobre outros elementos */
+}
+
+@media screen and (max-width: 768px) {
+  .swiper {
+    border: none;
+    width: 100%;
+  }
+
+  .ImageSwiper {
+    margin-top: 4vw;
+  }
+
+  div.swiper-button-prev {
+    width: 2vw;
+    height: 4vw;
+    border-radius: 4px;
+    margin-top: -6vw !important;
+  }
+
+  div.swiper-button-prev::after,
+  div.swiper-button-next::after {
+    font-size: 4vw;
+    font-weight: 800;
+  }
+
+  div.swiper-button-next {
+    width: 2vw;
+    height: 4vw;
+    border-radius: 4px;
+    margin-top: -6vw !important;
+  }
+
+  .HomeTitle {
+    font-size: 5vw;
+    width: 95%;
+  }
+
+  .ProjectLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .HomeContent > a:nth-child(4) .DynamicWrapper div,
+  .HomeContent > a:nth-child(6) .DynamicWrapper div {
+    order: 1;
+    text-align: center;
+  }
+
+  .HomeContent > a:nth-child(4) .DynamicWrapper div .DynamicTitle {
+    justify-content: center;
+  }
+
+  .HomeContent > a:nth-child(4) .DynamicWrapper img,
+  .HomeContent > a:nth-child(6) .DynamicWrapper img {
+    order: 2;
+  }
 }

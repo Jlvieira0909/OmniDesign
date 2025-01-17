@@ -64,7 +64,7 @@ const Projects = () => {
     <>
       <NavBar />
       <div className="ProjectsContainer">
-        <h1 className="ProjectsTitle">Veja os nosso trabalhos!</h1>
+        <h1 className="ProjectsTitle">Conheça alguns de nossos Projetos.</h1>
         <div className="ProjectsGallery">
           <img className="GalleryImageWide" src={Project01} alt="" />
           <img className="GalleryImageWide" src={Project02} alt="" />

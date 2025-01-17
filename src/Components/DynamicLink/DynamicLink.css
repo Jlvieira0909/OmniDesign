@@ -47,3 +47,28 @@
   transform: scale(1.1); /* Amplia a imagem ao passar o mouse */
   z-index: 1; /* Garante que a imagem fique sobre outros elementos */
 }
+
+@media screen and (max-width: 768px) {
+  .DynamicTitle {
+    width: 100%;
+    font-size: 8vw;
+    justify-content: center;
+  }
+
+  .DynamicText {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 5vw;
+  }
+
+  .DynamicWrapper {
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+  .DynamicImg {
+    width: 90%;
+  }
+}

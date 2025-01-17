@@ -12,7 +12,10 @@ const Contact = () => {
     <>
       <NavBar />
       <div className="ContactContainer">
-        <h2 className="ContactTitle">GOSTOU DO QUE VIU? ENTRE EM CONTATO!</h2>
+        <h2 className="ContactTitle">
+          Procurando soluções inteligentes e eficientes em Design Gráfico? Fale
+          conosco!
+        </h2>
         <a
           className="SocialLink"
           href="https://www.instagram.com/omnidesignbr/"

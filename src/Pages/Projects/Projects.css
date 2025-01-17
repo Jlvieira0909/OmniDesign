@@ -36,3 +36,25 @@
   height: 20vw;
   border: solid 2px #0044ff;
 }
+
+@media screen and (max-width: 768px) {
+  .ProjectsTitle {
+    font-size: 8vw;
+    text-align: center;
+  }
+  .ProjectsGallery {
+    width: 90%;
+  }
+  .GalleryImageWide {
+    width: 100%;
+    height: 100%;
+  }
+  .GalleryImageSquare {
+    width: 100%;
+    height: 100%;
+  }
+  .GalleryImagePoster {
+    width: 100%;
+    height: 100%;
+  }
+}

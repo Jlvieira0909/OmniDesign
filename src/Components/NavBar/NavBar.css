@@ -8,7 +8,7 @@
 }
 
 .Signature {
-  width: 24vw;
+  width: 32vw;
   height: 2vw;
   margin-left: 1vw;
 }
@@ -29,4 +29,25 @@
 
 .LinkLabel:hover {
   color: #0044ff;
+}
+
+@media screen and (max-width: 768px) {
+  .NavBarContainer {
+    justify-content: center;
+  }
+
+  .NavigationButtons {
+    gap: 8vw;
+  }
+  .NavBarContainer {
+    height: 12vw;
+  }
+
+  .Signature {
+    display: none;
+  }
+
+  .LinkLabel {
+    font-size: 4vw;
+  }
 }

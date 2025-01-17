@@ -54,13 +54,15 @@ const AboutUs = () => {
           </Swiper>
         </div>
         <div className="DetailsWrapper">
-          <h2 className="DetailsTitle">Um Pouco Mais Sobre Mim</h2>
+          <h2 className="DetailsTitle">
+            30 anos de experiência em Design Gráfico
+          </h2>
           <p className="DetailsText">
-            Bacharel em Design Gráfico com MBA em Marketing. Possuo vasta
-            experiência nas áreas de Design, Comercial, Marketing e Engenharia.
-            Sou especializado em prestar suporte estratégico à rede de vendas,
-            integrando eficientemente departamentos para otimizar operações e
-            resultados. Minha trajetória profissional inclui:
+            Fernando Vieira é Bacharel em Design Gráfico com MBA em Marketing.
+            Possuo vasta experiência nas áreas de Design, Comercial, Marketing e
+            Engenharia. Sou especializado em prestar suporte estratégico à rede
+            de vendas, integrando eficientemente departamentos para otimizar
+            operações e resultados. Minha trajetória profissional inclui:
           </p>
           <h3 className="DetailsFlavorText">
             * Desenvolvimento de materiais diversos de Design Gráfico.

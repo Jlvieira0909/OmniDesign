@@ -58,25 +58,26 @@ const Home = () => {
         </div>
         <div className="HomeContent">
           <h1 className="HomeTitle">
-            Há mais de 20 anos transformando sonhos em realidade!
+            30 anos desenvolvendo soluções inteligentes e eficientes em Design
+            Gráfico.
           </h1>
           <img className="MagicPhoto" alt=""></img>
           <DynamicLink
             DynamicLink="/aboutUs"
             DynamicTitle="Quem Somos"
-            DynamicText="Conheca um pouco melhor nossa jornada!"
+            DynamicText="Conheça nossa História e Perfil Profissional"
             DynamicImg={AboutUsImage}
           />
           <DynamicLink
             DynamicLink="/projects"
             DynamicTitle="Nossos Projetos"
-            DynamicText="Sinta se a vontade para olhar nosso projetos"
+            DynamicText="Alguns de nossos projetos e conceitos na área de Design Gráfico"
             DynamicImg={ProjectsImage}
           />
           <DynamicLink
             DynamicLink="/contact"
-            DynamicTitle="Entre em Contato"
-            DynamicText="Gostou do que viu? entre em contato conosco!"
+            DynamicTitle="Contato"
+            DynamicText="Estamos prontos para atender suas necessidades e expectativas em Design Gráfico"
             DynamicImg={TestimonialsImage}
           />
         </div>
